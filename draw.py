@@ -25,6 +25,6 @@ print("The winner is :")
 while len(winners) < nb_winner:
   n = randint(0,total_mails-1)
   if addresses[n] not in winners:
-    if 'orange.com' in addresses[n] or 'orangecyberdefense.com' in addresses[n] or 'sofrecom.com' in addresses[n]:
+    if 'orange.com' in addresses[n] or 'orangecyberdefense.com' in addresses[n] or 'sofrecom.com' in addresses[n] or 'softathome.com' in addresses[n] or 'viaccess-orca.com' in addresses[n]:
       winners.append(addresses[n])
       print(n,addresses[n])
